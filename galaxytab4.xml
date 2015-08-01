@@ -19,7 +19,9 @@
   <project path="device/samsung/millet-common" 	name="GalaxyTab4/bliss_device_samsung_millet-common" 			remote="sub" revision="millet"/>
 -->
   <project path="device/samsung/msm8226-common" name="GalaxyTab4/bliss_device_samsung_msm8226-common" 			remote="sub" revision="lp5.1"/> 
+<!-- git remote add github git@github.com:MSM8226-Samsung/android_device_samsung_msm8226-common.git -->
   <project path="device/samsung/qcom-common" 	name="GalaxyTab4/bliss_device_samsung_qcom-common" 				remote="sub" revision="lp5.1"/> 
+<!-- git remote add github git@github.com:TeamBliss-Devices/android_device_samsung_qcom-common.git -->
 
   <project path="kernel/samsung/matisse" 		name="GalaxyTab4/bliss_kernel_samsung_matisse" 					remote="sub" revision="lp5.1"/>
   <project path="vendor/samsung/matisse-common" name="GalaxyTab4/bliss_vendor_samsung_matisse-common" 			remote="sub" revision="lp5.1"/>
