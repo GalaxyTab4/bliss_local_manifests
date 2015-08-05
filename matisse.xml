@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="sub" fetch="ssh://git@github.com" />
+
+  <project path="device/samsung/matisse" name="GalaxyTab4/omni_device_samsung_matisse" remote="sub" revision="twrp-cm-12.1"/>
+
+  <project path="kernel/samsung/matisse" name="GalaxyTab4/android_kernel_samsung_matisse" remote="sub" revision="twrp-cm-12.1"/>
+
+</manifest>
