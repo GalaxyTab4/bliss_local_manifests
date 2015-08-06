@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/qcom/common" name="cyanogenmod/android_device_qcom_common" remote="github" revision="cm-12.1"/>
+</manifest>
