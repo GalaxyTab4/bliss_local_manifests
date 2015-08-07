@@ -1,8 +1,16 @@
 <manifest>
   <remote name="sub" fetch="ssh://git@github.com" />
 
-  <project path="external/exfat" name="CyanogenMod/android_external_exfat" />
-  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" />
+  <remove-project name="platform/system/vold" />
+	<project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" remote="github" revision="cm-12.1" />
+
+  <remove-project name="platform/vendor/qcom-opensource/wlan/prima" />
+	<project path="vendor/qcom-opensource/wlan/prima" name="GalaxyTab4/prima" groups="sub" remote="github" revision="aosparadox" />
+
+  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-12.1" />
+  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-12.1" />
+  <project path="external/lz4" name="CyanogenMod/android_external_lz4" remote="github" revision="cm-12.1" />
+  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="cm-12.1" />
 
 
   <!-- Device Trees -->
