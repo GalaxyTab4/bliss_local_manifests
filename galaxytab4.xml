@@ -3,38 +3,34 @@
 <manifest>
 
   <remote name="sub" fetch="ssh://git@github.com" />
-<!--
-  <project path="frameworks/base" 				name="GalaxyTab4/bliss_frameworks_base" 						remote="sub" revision="lp5.1"/>
-  <project path="vendor/bliss"	 				name="GalaxyTab4/bliss_vendor_bliss" 							remote="sub" revision="lp5.1"/>
--->
 
 <remove-project name="platform/external/openssh" />
-  <project path="external/openssh"	 				name="GalaxyTab4/bliss_external_openssh" 					remote="sub" revision="lp5.1"/>
+  <project path="external/openssh"	 				    name="GalaxyTab4/bliss_external_openssh" 					    remote="sub" revision="lp5.1"/>
+  
+  <project path="device/samsung/matissewifi" 	  name="GalaxyTab4/bliss_device_samsung_matissewifi" 		remote="sub" revision="lp5.1"/>
+  <project path="device/samsung/matisselte"     name="GalaxyTab4/bliss_device_samsung_matisselte"   	remote="sub" revision="lp5.1" />
+  <project path="device/samsung/matisse-common" name="GalaxyTab4/bliss_device_samsung_matisse-common" remote="sub" revision="lp5.1"/>
 
-
-  <project path="device/samsung/matissewifi" 	name="GalaxyTab4/bliss_device_samsung_matissewifi" 				remote="sub" revision="lp5.1"/>
-  <project path="device/samsung/matisselte"    name="GalaxyTab4/bliss_device_samsung_matisselte"   				remote="sub" revision="lp5.1" />
-  <project path="device/samsung/matisse-common" name="GalaxyTab4/bliss_device_samsung_matisse-common" 			remote="sub" revision="lp5.1"/>
-<!--
-  <project path="device/samsung/milletwifi" 	name="GalaxyTab4/bliss_device_samsung_milletwifi" 				remote="sub" revision="millet"/>
-  <project path="device/samsung/millet-common" 	name="GalaxyTab4/bliss_device_samsung_millet-common" 			remote="sub" revision="millet"/>
--->
-  <project path="device/samsung/msm8226-common" name="GalaxyTab4/bliss_device_samsung_msm8226-common" 			remote="sub" revision="lp5.1"/> 
+  <project path="device/samsung/msm8226-common" name="GalaxyTab4/bliss_device_samsung_msm8226-common" remote="sub" revision="lp5.1"/> 
 <!-- git remote add github git@github.com:MSM8226-Samsung/android_device_samsung_msm8226-common.git -->
-  <project path="device/samsung/qcom-common" 	name="GalaxyTab4/bliss_device_samsung_qcom-common" 				remote="sub" revision="lp5.1"/> 
+  <project path="device/samsung/qcom-common" 	  name="GalaxyTab4/bliss_device_samsung_qcom-common" 		remote="sub" revision="lp5.1"/> 
 <!-- git remote add github git@github.com:TeamBliss-Devices/android_device_samsung_qcom-common.git -->
 
-  <project path="kernel/samsung/matisse" 		name="GalaxyTab4/bliss_kernel_samsung_matisse" 					remote="sub" revision="lp5.1"/>
-  <project path="vendor/samsung/matissewifi" name="GalaxyTab4/bliss_vendor_samsung_matissewifi" 			remote="sub" revision="lp5.1"/>
+  <project path="kernel/samsung/matisse" 		    name="GalaxyTab4/bliss_kernel_samsung_matisse" 				remote="sub" revision="lp5.1"/>
+  <project path="vendor/samsung/matissewifi"    name="GalaxyTab4/bliss_vendor_samsung_matissewifi" 		remote="sub" revision="lp5.1"/>
 <!--
-  <project path="kernel/samsung/millet" 		name="GalaxyTab4/bliss_kernel_samsung_millet" 					remote="sub" revision="millet"/>
-  <project path="vendor/samsung/millet-common" 	name="GalaxyTab4/bliss_vendor_samsung_millet-common" 			remote="sub" revision="millet"/>  
+  <project path="device/samsung/milletwifi" 	  name="GalaxyTab4/bliss_device_samsung_milletwifi" 		remote="sub" revision="millet"/>
+  <project path="device/samsung/millet-common" 	name="GalaxyTab4/bliss_device_samsung_millet-common" 	remote="sub" revision="millet"/>
+  <project path="kernel/samsung/millet" 		    name="GalaxyTab4/bliss_kernel_samsung_millet" 				remote="sub" revision="millet"/>
+  <project path="vendor/samsung/millet-common" 	name="GalaxyTab4/bliss_vendor_samsung_millet-common" 	remote="sub" revision="millet"/>  
 -->
-  <project path="device/samsung/s3ve3g" 		name="TeamBliss-Devices/android_device_samsung_s3ve3g" 			remote="github" revision="lp5.1"/>
-  <project path="kernel/samsung/s3ve3g" 		name="TeamBliss-Devices/android_kernel_samsung_s3ve3g" 			remote="github" revision="lp5.1"/>
-  <project path="vendor/samsung/s3ve3g" 		name="TeamBliss-Devices/android_vendor_samsung_s3ve3g" 			remote="github" revision="lp5.1"/> 
 <!--
+  <project path="device/samsung/s3ve3g" 		    name="TeamBliss-Devices/android_device_samsung_s3ve3g" remote="github" revision="lp5.1"/>
+  <project path="kernel/samsung/s3ve3g" 	    	name="TeamBliss-Devices/android_kernel_samsung_s3ve3g" remote="github" revision="lp5.1"/>
+  <project path="vendor/samsung/s3ve3g" 		    name="TeamBliss-Devices/android_vendor_samsung_s3ve3g" remote="github" revision="lp5.1"/> 
+
   <project path="device/samsung/msm8226-common" name="TeamBliss-Devices/android_device_samsung_msm8226-common" 	remote="github" revision="lp5.1"/> 
-  <project path="device/samsung/qcom-common" 	name="TeamBliss-Devices/android_device_samsung_qcom-common" 	remote="github" revision="cm-12.1"/> 
+  <project path="device/samsung/qcom-common" 	  name="TeamBliss-Devices/android_device_samsung_qcom-common" 	  remote="github" revision="cm-12.1"/> 
 -->
+
 </manifest>
