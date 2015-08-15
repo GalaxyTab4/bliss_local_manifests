@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="sub" fetch="ssh://git@github.com" />
+
+  <project path="bootable/recovery-twrp" name="Tasssadar/Team-Win-Recovery-Project" remote="github" revision="master"/>
+
+  <project path="system/extras/multirom" name="Tasssadar/multirom" remote="github" revision="master"/>
+
+  <project path="system/extras/libbootimg" name="Tasssadar/libbootimg" remote="github" revision="master"/>
+
+</manifest>
