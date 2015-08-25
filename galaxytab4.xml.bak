@@ -25,8 +25,7 @@
   <project path="device/samsung/millet-common" 	name="GalaxyTab4/bliss_device_samsung_millet-common" 	remote="sub" revision="millet"/>
   <project path="kernel/samsung/millet"         name="GalaxyTab4/bliss_kernel_samsung_millet"           remote="sub" revision="millet"/>
   <project path="vendor/samsung/millet-common" 	name="GalaxyTab4/bliss_vendor_samsung_millet-common" 	remote="sub" revision="millet"/>  
--->
-<!--
+
   <project path="device/samsung/s3ve3g"         name="TeamBliss-Devices/android_device_samsung_s3ve3g"  remote="github" revision="lp5.1"/>
   <project path="kernel/samsung/s3ve3g"         name="TeamBliss-Devices/android_kernel_samsung_s3ve3g"  remote="github" revision="lp5.1"/>
   <project path="vendor/samsung/s3ve3g"         name="TeamBliss-Devices/android_vendor_samsung_s3ve3g"  remote="github" revision="lp5.1"/> 

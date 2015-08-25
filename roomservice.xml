@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+  <project name="TeamBliss-Devices/android_device_samsung_s3ve3g" path="device/samsung/s3ve3g" remote="github" revision="lp5.1" />
+  <project name="android_device_samsung_msm8226-common" path="device/samsung/msm8226-common" remote="TeamBliss-Devices" revision="lp5.1" />
+</manifest>
