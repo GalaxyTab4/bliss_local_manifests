@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="sub" fetch="ssh://git@github.com" />
+
+  <project path="device/samsung/matisse"    name="GalaxyTab4/android_device_samsung_matisse"      remote="sub" revision="lp5.1"/>
+ 
+</manifest>
