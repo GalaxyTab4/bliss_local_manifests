@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ 
+<remote name="sub"
+fetch="ssh://git@github.com" />
+
+        <project path="device/samsung/milletwifi"
+        remote="github"
+        name="GalaxyTab4/android_device_samsung_milletwifi"
+        revision="lp5.1"/>
+        
+        <project path="device/samsung/millet-common"
+        remote="github"
+        name="GalaxyTab4/android_device_samsung_millet-common"
+        revision="lp5.1"/>
+        
+        <project path="device/samsung/msm8226-common"
+        remote="github"
+        name="GalaxyTab4/bliss_device_samsung_msm8226-common"
+        revision="lp5.1"/>
+        
+        <project path="vendor/samsung/millet-common"
+        remote="github"
+        name="GalaxyTab4/android_vendor_samsung_millet-common"
+        revision="lp5.1"/>
+
+        <project path="vendor/samsung/matisse"
+        remote="github"
+        name="GalaxyTab4/android_vendor_samsung_matisse"
+        revision="lp5.1"/>
+
+        <project path="kernel/samsung/millet"
+        remote="sub"
+        name="GalaxyTab4/android_kernel_samsung_millet"
+        revision="lp5.1"/>
+
+        <project path="device/samsung/qcom-common"
+        remote="github"
+        name="CyanogenMod/android_device_samsung_qcom-common"
+        revision="cm-12.1"/>
+
+        <project path="hardware/samsung"
+        remote="github"
+        name="CyanogenMod/android_hardware_samsung"
+        revision="cm-12.1"/>
+
+        <project path="hardware/qcom/fm"
+        remote="github"
+        name="CyanogenMod/android_hardware_qcom_fm"
+        revision="cm-12.1"/>
+
+</manifest>
