@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <remote name="sub" fetch="ssh://git@github.com" />
-  <project name="GalaxyTab4/twrp__matissevewifi"    path="device/samsung/matissevewifi"     remote="sub"  revision="android-6.0" />
+  <project name="GalaxyTab4/twrp_matissevewifi"    path="device/samsung/matissevewifi"     remote="sub"  revision="android-6.0" />
 </manifest>
 
