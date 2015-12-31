@@ -17,5 +17,20 @@
   <project name="CyanogenMod/android_external_stlport"                path="external/stlport"                 remote="github" revision="cm-13.0" /> 
   <project name="CyanogenMod/android_external_sony_boringssl-compat"  path="external/sony/boringssl-compat"   remote="github" revision="cm-13.0" /> 
   <project name="CyanogenMod/android_hardware_samsung"                path="hardware/samsung"                 remote="github" revision="cm-13.0" /> 
+
+ <!--Repositories to remove-->
+  <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />  
+
 </manifest>
 
