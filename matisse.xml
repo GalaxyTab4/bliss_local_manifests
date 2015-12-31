@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote name="sub" fetch="ssh://git@github.com" />
+
+ <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="architoolchain-4.9-arm-linux-gnueabihf-cortex_a7_neon_vfpv4" />
+ <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="uber-4.9-arm-linux-androideabi" />
+
+  <project name="GalaxyTab4/android_device_samsung_matisse"           path="device/samsung/matisse"           remote="sub"    revision="cm-13.0" />
+  <project name="GalaxyTab4/android_device_samsung_msm8226-common"    path="device/samsung/msm8226-common"    remote="sub"    revision="cm-13.0" />
+  <project name="CyanogenMod/android_device_samsung_qcom-common"      path="device/samsung/qcom-common"       remote="github" revision="cm-13.0" /> 
+  <project name="GalaxyTab4/android_kernel_samsung_matisse"           path="kernel/samsung/matisse"           remote="sub"    revision="cm-13.0" />
+  <project name="GalaxyTab4/android_kernel_samsung_s3ve3g"            path="kernel/samsung/s3ve3g"            remote="sub"    revision="cm-13.0" />
+  <project name="GalaxyTab4/android_vendor_samsung_matisse"           path="vendor/samsung/matisse"           remote="sub"    revision="cm-13.0" />
+  <project name="CyanogenMod/android_device_qcom_common"              path="device/qcom/commo"                remote="github" revision="cm-13.0" /> 
+  <project name="CyanogenMod/android_external_stlport"                path="external/stlport"                 remote="github" revision="cm-13.0" /> 
+  <project name="CyanogenMod/android_external_sony_boringssl-compat"  path="external/sony/boringssl-compat"   remote="github" revision="cm-13.0" /> 
+  <project name="CyanogenMod/android_hardware_samsung"                path="hardware/samsung"                 remote="github" revision="cm-13.0" /> 
+</manifest>
+
