@@ -7,20 +7,20 @@
   <project name="GalaxyTab4/android_kernel_samsung_s3ve3g"            path="kernel/samsung/s3ve3g"            remote="sub"    revision="cm-13.0" />
   <project name="GalaxyTab4/android_vendor_samsung_matisse"           path="vendor/samsung/matisse"           remote="sub"    revision="cm-13.0" />
   
- <!--Additional Repositories-->
+ <!--Additional Repositories
   <project name="CyanogenMod/android_device_samsung_qcom-common"      path="device/samsung/qcom-common"       remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_device_qcom_common"              path="device/qcom/common"               remote="github" revision="cm-13.0" /> 
   <project name="CyanogenMod/android_external_stlport"                path="external/stlport"                 remote="github" revision="cm-13.0" /> 
   <project name="CyanogenMod/android_external_sony_boringssl-compat"  path="external/sony/boringssl-compat"   remote="github" revision="cm-13.0" /> 
   <project name="CyanogenMod/android_hardware_samsung"                path="hardware/samsung"                 remote="github" revision="cm-13.0" /> 
- 
- <!--Repositories to replace-->
+ -->
+ <!--Repositories to replace
  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
   <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="architoolchain-4.9-arm-linux-gnueabihf-cortex_a7_neon_vfpv4" />
  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="uber-4.9-arm-linux-androideabi" />
-
- <!--Repositories to remove-->
+ -->
+ <!--Repositories to remove
   <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
@@ -33,6 +33,6 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />  
-
+ -->
 </manifest>
 
