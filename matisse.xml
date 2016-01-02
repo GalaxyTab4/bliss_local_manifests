@@ -2,10 +2,19 @@
 <manifest>
 
  <remote name="sub" fetch="ssh://git@github.com" />
-  <project name="GalaxyTab4/android_device_samsung_matisse"           path="device/samsung/matisse"           remote="sub"    revision="cm-13.0" />
-  <project name="GalaxyTab4/android_device_samsung_msm8226-common"    path="device/samsung/msm8226-common"    remote="sub"    revision="cm-13.0" />
+  <project name="GalaxyTab4/android_device_samsung_matisse"           path="device/samsung/matissewifi"       remote="sub"    revision="mm6.0" />
+  <project name="GalaxyTab4/android_device_samsung_msm8226-common"    path="device/samsung/msm8226-common"    remote="sub"    revision="mm6.0" />
   <project name="GalaxyTab4/android_kernel_samsung_s3ve3g"            path="kernel/samsung/s3ve3g"            remote="sub"    revision="cm-13.0" />
   <project name="GalaxyTab4/android_vendor_samsung_matisse"           path="vendor/samsung/matisse"           remote="sub"    revision="cm-13.0" />
+  
+ <!--Falcon-->
+  <project name="GalaxyTab4/twrp_device_motorola_falcon"              path="device/motorola/falcon"           remote="sub"    revision="mm6.0" />
+  
+ <!--Additional Recovery-->
+  <project name="omnirom/android_bootable_recovery"                   path="bootable/recovery-twrp"           remote="github" revision="android-6.0" />
+  <project name="GalaxyTab4/Team-Win-Recovery-Project"                path="bootable/recovery-mr"             remote="github" revision="master" />
+  <project name="GalaxyTab4/multirom"                                 path="system/extras/multirom"           remote="github" revision="master" />
+  <project name="Tasssadar/libbootimg"                                path="system/extras/libbootimg"         remote="github" revision="master" />
   
  <!--Additional Repositories
   <project name="CyanogenMod/android_device_samsung_qcom-common"      path="device/samsung/qcom-common"       remote="github" revision="cm-13.0" />
@@ -20,8 +29,7 @@
  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="uber-4.9-arm-linux-androideabi" />
  -->
- <!--Repositories to remove
-  <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
+ <!--Repositories to remove -->
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
@@ -33,6 +41,6 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />  
- -->
+
 </manifest>
 
