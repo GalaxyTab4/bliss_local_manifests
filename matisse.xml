@@ -8,14 +8,14 @@
   <project name="GalaxyTab4/android_vendor_samsung_matisse"           path="vendor/samsung/matisse"           remote="sub"    revision="cm-13.0" />
   
  <!--Falcon-->
-  <project name="GalaxyTab4/twrp_device_motorola_falcon"              path="device/motorola/falcon"           remote="sub"    revision="mm6.0" />
+  <project name="GalaxyTab4/twrp_falcon"                              path="device/motorola/falcon"           remote="github"    revision="mm6.0-prebuilt" />
   
  <!--Additional Recovery-->
-  <project name="omnirom/android_bootable_recovery"                   path="bootable/recovery-twrp"           remote="github" revision="android-6.0" />
-  <project name="GalaxyTab4/Team-Win-Recovery-Project"                path="bootable/recovery-mr"             remote="github" revision="master" />
+  <project name="GalaxyTab4/Team-Win-Recovery-Project"                path="bootable/recovery-twrp"           remote="github" revision="master" />
+<!--  <project name="omnirom/android_bootable_recovery"                   path="bootable/recovery-twrp"           remote="github" revision="android-6.0" />
   <project name="GalaxyTab4/multirom"                                 path="system/extras/multirom"           remote="github" revision="master" />
   <project name="Tasssadar/libbootimg"                                path="system/extras/libbootimg"         remote="github" revision="master" />
-  
+-->
  <!--Additional Repositories
   <project name="CyanogenMod/android_device_samsung_qcom-common"      path="device/samsung/qcom-common"       remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_device_qcom_common"              path="device/qcom/common"               remote="github" revision="cm-13.0" /> 

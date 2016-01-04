@@ -5,4 +5,5 @@
   <project name="android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="cm" revision="cm-13.0" />
   <project name="android_external_stlport" path="external/stlport" remote="cm" revision="cm-13.0" />
   <project name="android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cm" revision="cm-13.0" />
+  <project name="GalaxyTab4/twrp_falcon" path="device/motorola/msm8226-common" remote="cm" revision="mm6.0-common" />
 </manifest>
