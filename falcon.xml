@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	 <remote name="gh" fetch="ssh://git@github.com" />
+
+  <project name="desaishivam26/android_device_motorola_falcon"           path="device/motorola/falcon"         remote="gh"    revision="mm6.0"   />
+  <project name="desaishivam26/android_device_motorola_msm8226-common"   path="device/motorola/msm8226-common" remote="gh"    revision="cm-13.0" />
+  <project name="desaishivam26/Optimus_Reborn.git"                       path="kernel/motorola/msm8226"        remote="gh"    revision="mm6.0"   />
+  <project name="desaishivam26/proprietary_vendor_motorola"              path="vendor/motorola"                remote="gh"    revision="cm-13.0" />
+</manifest>
+
